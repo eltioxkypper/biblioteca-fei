@@ -26,7 +26,7 @@ Diseñar, normalizar, programar y consultar de forma avanzada el sistema de info
 | **Fase 4: DQL vía Procedimientos Almacenados** | Programación y ejecución de los 3 reportes requeridos usando `JOIN`, funciones de agregación y agrupamiento (`GROUP BY` / `HAVING`). | **8 puntos** |
 | **Fase 5: Seguridad (DCL)** | Script de creación de usuarios, roles asignados y control de permisos. | **2 puntos** |
 | **Fase 6: Reporte Final** | Documento integrador oficial (`reporte-final.pdf`) con estructura técnica, evidencias y conclusiones. | **6 puntos** |
-| **Total** | | **40 puntos** |
+| **Total** | | **35 puntos** |
 
 ---
 
