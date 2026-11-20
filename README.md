@@ -4,7 +4,7 @@
 | :--- | :--- |
 | **Institución** | Universidad Veracruzana — Facultad de Estadística e Informática (FEI) |
 | **Experiencia Educativa** | Bases de Datos |
-| **Ponderación Total** | **40 puntos** (calificación final) |
+| **Ponderación Total** | **35 puntos** (calificación final) |
 | **Modalidad** | Células de trabajo (equipos de desarrollo) |
 | **Entorno Tecnológico** | Docker (SQL Server) + Visual Studio Code (Notebooks de SQL e instancias locales) + Git / GitHub |
 
@@ -16,12 +16,12 @@ Diseñar, normalizar, programar y consultar de forma avanzada el sistema de info
 
 ---
 
-## Ponderación y Fases de Evaluación (Total: 40 Puntos)
+## Ponderación y Fases de Evaluación (Total: 35 Puntos)
 
 | Fase | Contenido / Entregables | Ponderación |
 | :--- | :--- | :---: |
-| **Fase 1: Análisis y Modelado** | Matriz de requerimientos, reglas de negocio, diagrama de Chen, modelos relacionales (inicial y normalizado hasta 4FN) y diccionario de datos. | **7 puntos** |
-| **Fase 2: DDL** | Creación de la base de datos, tablas, llaves primarias/foráneas y restricciones (`CHECK`, `UNIQUE`, nomenclatura institucional). | **5 puntos** |
+| **Fase 1: Análisis y Modelado** | Matriz de requerimientos, reglas de negocio, diagrama de Chen, modelos relacionales (inicial y normalizado hasta 4FN) y diccionario de datos. | **5 puntos** |
+| **Fase 2: DDL** | Creación de la base de datos, tablas, llaves primarias/foráneas y restricciones (`CHECK`, `UNIQUE`, nomenclatura institucional). | **2 puntos** |
 | **Fase 3: DML vía Procedimientos Almacenados** | Poblado verídico de recursos y usuarios (entrevistas a alumnos y maestros), préstamos (15 nov – 15 dic 2026), actualización masiva con `GETDATE()` y sanciones. | **12 puntos** |
 | **Fase 4: DQL vía Procedimientos Almacenados** | Programación y ejecución de los 3 reportes requeridos usando `JOIN`, funciones de agregación y agrupamiento (`GROUP BY` / `HAVING`). | **8 puntos** |
 | **Fase 5: Seguridad (DCL)** | Script de creación de usuarios, roles asignados y control de permisos. | **2 puntos** |
@@ -53,7 +53,7 @@ biblioteca-fei/
 ├── README.md                                     # Guía general del proyecto, equipo, requisitos y flujo de ejecución
 ├── .gitignore                                    # Archivos temporales, credenciales y configuraciones locales
 │
-├── 01_modelado/                                  # Fase 1: Análisis y modelado de datos (7 puntos)
+├── 01_modelado/                                  # Fase 1: Análisis y modelado de datos (5 puntos)
 │   ├── matriz-requerimientos.pdf                   # Requerimientos funcionales y técnicos del sistema
 │   ├── reglas-negocio.pdf                          # Políticas de préstamo, plazos, multas y restricciones
 │   ├── diccionario-datos.xlsx                      # Diccionario estructurado (entidades, atributos, tipos, PK/FK)
@@ -62,7 +62,7 @@ biblioteca-fei/
 │   └── modelo-relacional-normalizado.png           # Modelo normalizado en 4FN con tablas puente
 │
 ├── 02_programmability/                           # Scripts SQL secuenciales para SQL Server (Docker)
-│   ├── 01_ddl/                                   # Fase 2: Estructura de la base de datos (5 puntos)
+│   ├── 01_ddl/                                   # Fase 2: Estructura de la base de datos (2 puntos)
 │   │   ├── 01_create_database.sql                  # Creación de la base de datos BibliotecaFEI
 │   │   └── 02_create_tables.sql                    # Tablas (Plural PascalCase, llaves _FK, CHECK y UNIQUE)
 │   ├── 02_stored_procedures/                     # Fases 3 y 4: Procedimientos almacenados (DML y DQL) (20 puntos)
